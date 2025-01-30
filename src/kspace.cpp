@@ -91,7 +91,7 @@ KSpace::KSpace(LAMMPS *lmp) : Pointers(lmp)
   maxeatom = maxvatom = 0;
   eatom = nullptr;
   vatom = nullptr;
-  centroidstressflag = CENTROID_NOTAVAIL;
+  centroidstressflag = CENTROID_SAME;
 
   execution_space = Host;
   datamask_read = ALL_MASK;
